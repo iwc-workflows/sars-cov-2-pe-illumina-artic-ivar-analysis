@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2021-08-30T10:45:41.153752",
+            "datePublished": "2021-10-14T14:17:22.150269",
             "hasPart": [
                 {
                     "@id": "pe-wgs-ivar-analysis.ga"
@@ -66,12 +66,12 @@
                     "@id": "#0000-0001-6553-5274"
                 }
             ],
-            "name": "SARS-CoV-2 Illumina Amplicon pipeline - iVar based (imported from uploaded file)",
+            "name": "sars-cov-2-pe-illumina-artic-ivar-analysis/SARS-COV-2-ILLUMINA-AMPLICON-IVAR-PANGOLIN-NEXTCLADE",
             "programmingLanguage": {
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/sars-cov-2-pe-illumina-artic-ivar-analysis",
-            "version": "0.1"
+            "version": "0.2"
         },
         {
             "@id": "#galaxy",
@@ -137,7 +137,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.74.6"
+            "engineVersion": ">=0.74.8"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
