@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2021-10-14T14:17:22.150269",
+            "datePublished": "2021-11-04T15:32:26.200967",
             "hasPart": [
                 {
                     "@id": "pe-wgs-ivar-analysis.ga"
@@ -42,7 +42,8 @@
                 {
                     "@id": "#test1"
                 }
-            ]
+            ],
+            "name": "sars-cov-2-pe-illumina-artic-ivar-analysis/SARS-COV-2-ILLUMINA-AMPLICON-IVAR-PANGOLIN-NEXTCLADE"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -71,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/sars-cov-2-pe-illumina-artic-ivar-analysis",
-            "version": "0.2"
+            "version": "0.2.1"
         },
         {
             "@id": "#galaxy",
@@ -137,7 +138,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.74.8"
+            "engineVersion": ">=0.74.9"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
