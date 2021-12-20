@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2021-11-04T15:32:26.200967",
+            "datePublished": "2021-12-20T17:04:47.631291",
             "hasPart": [
                 {
                     "@id": "pe-wgs-ivar-analysis.ga"
@@ -72,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/sars-cov-2-pe-illumina-artic-ivar-analysis",
-            "version": "0.2.1"
+            "version": "0.2.2"
         },
         {
             "@id": "#galaxy",
@@ -115,7 +115,7 @@
             "@id": "#test1_1",
             "@type": "TestInstance",
             "name": "test1_1",
-            "resource": "repos/galaxyproject/iwc/actions/workflows/workflow_test.yml",
+            "resource": "repos/iwc-workflows/sars-cov-2-pe-illumina-artic-ivar-analysis/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
             },
