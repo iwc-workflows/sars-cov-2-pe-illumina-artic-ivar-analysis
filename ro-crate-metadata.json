@@ -1,36 +1,16 @@
 {
-    "@context": [
-        "https://w3id.org/ro/crate/1.1/context",
-        {
-            "GithubService": "https://w3id.org/ro/terms/test#GithubService",
-            "JenkinsService": "https://w3id.org/ro/terms/test#JenkinsService",
-            "PlanemoEngine": "https://w3id.org/ro/terms/test#PlanemoEngine",
-            "TestDefinition": "https://w3id.org/ro/terms/test#TestDefinition",
-            "TestInstance": "https://w3id.org/ro/terms/test#TestInstance",
-            "TestService": "https://w3id.org/ro/terms/test#TestService",
-            "TestSuite": "https://w3id.org/ro/terms/test#TestSuite",
-            "TravisService": "https://w3id.org/ro/terms/test#TravisService",
-            "definition": "https://w3id.org/ro/terms/test#definition",
-            "engineVersion": "https://w3id.org/ro/terms/test#engineVersion",
-            "instance": "https://w3id.org/ro/terms/test#instance",
-            "resource": "https://w3id.org/ro/terms/test#resource",
-            "runsOn": "https://w3id.org/ro/terms/test#runsOn"
-        }
-    ],
+    "@context": "https://w3id.org/ro/crate/1.1/context",
     "@graph": [
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2021-12-20T17:04:47.631291",
+            "datePublished": "2024-01-11T16:24:23.628607",
             "hasPart": [
                 {
                     "@id": "pe-wgs-ivar-analysis.ga"
                 },
                 {
                     "@id": "README.md"
-                },
-                {
-                    "@id": "pe-wgs-ivar-analysis-test.yml"
                 }
             ],
             "isBasedOn": "https://github.com/iwc-workflows/sars-cov-2-pe-illumina-artic-ivar-analysis",
@@ -38,11 +18,6 @@
             "mainEntity": {
                 "@id": "pe-wgs-ivar-analysis.ga"
             },
-            "mentions": [
-                {
-                    "@id": "#test1"
-                }
-            ],
             "name": "sars-cov-2-pe-illumina-artic-ivar-analysis/SARS-COV-2-ILLUMINA-AMPLICON-IVAR-PANGOLIN-NEXTCLADE"
         },
         {
@@ -64,7 +39,7 @@
             ],
             "creator": [
                 {
-                    "@id": "#0000-0001-6553-5274"
+                    "@id": "https://orcid.org/0000-0001-6553-5274"
                 }
             ],
             "name": "sars-cov-2-pe-illumina-artic-ivar-analysis/SARS-COV-2-ILLUMINA-AMPLICON-IVAR-PANGOLIN-NEXTCLADE",
@@ -72,7 +47,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/sars-cov-2-pe-illumina-artic-ivar-analysis",
-            "version": "0.2.2"
+            "version": "0.2.3"
         },
         {
             "@id": "#galaxy",
@@ -87,66 +62,13 @@
             "version": "v19_09"
         },
         {
-            "@id": "#0000-0001-6553-5274",
+            "@id": "https://orcid.org/0000-0001-6553-5274",
             "@type": "Person",
             "name": "Peter van Heusden"
         },
         {
             "@id": "README.md",
             "@type": "File"
-        },
-        {
-            "@id": "#test1",
-            "@type": "TestSuite",
-            "definition": {
-                "@id": "pe-wgs-ivar-analysis-test.yml"
-            },
-            "instance": [
-                {
-                    "@id": "#test1_1"
-                }
-            ],
-            "mainEntity": {
-                "@id": "pe-wgs-ivar-analysis.ga"
-            },
-            "name": "test1"
-        },
-        {
-            "@id": "#test1_1",
-            "@type": "TestInstance",
-            "name": "test1_1",
-            "resource": "repos/iwc-workflows/sars-cov-2-pe-illumina-artic-ivar-analysis/actions/workflows/wftest.yml",
-            "runsOn": {
-                "@id": "https://w3id.org/ro/terms/test#GithubService"
-            },
-            "url": "https://api.github.com"
-        },
-        {
-            "@id": "https://w3id.org/ro/terms/test#GithubService",
-            "@type": "TestService",
-            "name": "Github Actions",
-            "url": {
-                "@id": "https://github.com"
-            }
-        },
-        {
-            "@id": "pe-wgs-ivar-analysis-test.yml",
-            "@type": [
-                "File",
-                "TestDefinition"
-            ],
-            "conformsTo": {
-                "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
-            },
-            "engineVersion": ">=0.74.9"
-        },
-        {
-            "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
-            "@type": "SoftwareApplication",
-            "name": "Planemo",
-            "url": {
-                "@id": "https://github.com/galaxyproject/planemo"
-            }
         }
     ]
 }
