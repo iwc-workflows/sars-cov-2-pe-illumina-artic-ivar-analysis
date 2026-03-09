@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2025-07-30T09:26:47.741117",
+            "datePublished": "2026-03-09T10:41:00.190766",
             "hasPart": [
                 {
                     "@id": "pe-wgs-ivar-analysis.ga"
@@ -72,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/sars-cov-2-pe-illumina-artic-ivar-analysis",
-            "version": "0.3.1"
+            "version": "0.4"
         },
         {
             "@id": "#galaxy",
@@ -138,7 +138,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.31"
+            "engineVersion": ">=0.75.40"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
